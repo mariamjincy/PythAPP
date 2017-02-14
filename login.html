@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link href="/static/css/jcarousel.css" rel="stylesheet" />
+    <link href="/static/css/notification.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css"/>
+    <style type="text/css">
+body,html
+{
+    width: 100%;
+    height:100%;
+}
+*
+{
+    margin-left: 0px;
+}
+.d1
+{
+    width: 40%;
+    height: 40%;
+    top: 10%;
+    margin-left: 28%;
+    position: relative;
+}
+</style>
+</head>
+<body>
+<div class="d1">
+ <hr/>
+
+    <h1><font color="brown">Please Login:</font></h1>
+    <br/>
+
+
+     <form id="login_form" action="login" method="post">
+        <label class="grey" for="log">Email Address</label><br />
+        <input type="text" name="email" style="width:99%" id="email"><br>
+        <label class="grey" for="pwd">Password</label><br />
+        <input type="password" name="password" style="width:99%" id="password"><br />
+        <input type="submit" id="loginbtn" name="login" value="LOGIN" class="button"<br />
+    </form>
+
+    <br/>
+    <a href='register.html'>register</a>
+    <br/>
+    <a href='fb_demo.html'> Login with Facebook </a> <br/>
+</div>
+
+</body>
+</html>
+
+
